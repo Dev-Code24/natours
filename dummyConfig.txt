@@ -1,0 +1,18 @@
+NODE_ENV = development
+PORT = 8000
+USER = newUser
+DB = mongodb+srv://admin-(projectName):<PASSWORD>@cluster0.f2ijesx.mongodb.net/(projectName)
+DB_PASSWORD = (adminPassword)
+
+JWT_SECRET = this-is-my-super-super-long-jwt-secret-code
+JWT_EXPIRES_IN = 45d // Days in which the jwt token expires in 
+JWT_COOKIE_EXPIRES_IN = 30 // Days in which the cookie sent, expires in 
+
+EMAIL_FROM = user@gmail.com --> for node mailer
+EMAIL_USERNAME = dfghjkm2345676543 -->  mailtrap username
+EMAIL_PASSWORD = rtyui123456 --> mailtrap password
+EMAIL_HOST = sandbox.smtp.mailtrap.io --> mailtrap host
+EMAIL_PORT = 25 --> mailtrap port number
+
+STRIPE_SECRET_KEY = the secret key given by stripe in test accounts
+STRIPE_PUBLIC_KEY = 'the public key given by stripe'
