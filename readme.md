@@ -10,7 +10,7 @@ To clone this project:
 ```bash
 git clone https://github.com/Dev-Code24/natours.git
 ```
-Change the name of dummyConfig.env to config.env. Then add the data in it accordingly
+After cloning the project change the name of dummyConfig.env to config.env. Then add the data in it accordingly
 
 ## Starting with the development
 
