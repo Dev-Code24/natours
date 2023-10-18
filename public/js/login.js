@@ -6,7 +6,7 @@ export const login = async (email, password) => {
   try {
     const res = await axios({
       method: 'POST',
-      url: 'http://https://natoursrlm.vercel.app//api/v1/users/login',
+      url: 'http://https://natoursrlm.netlify.app//api/v1/users/login',
       data: {
         email,
         password,
@@ -28,7 +28,7 @@ export const logout = async () => {
   try {
     const res = await axios({
       method: 'GET',
-      url: 'https://natoursrlm.vercel.app/api/v1/users/logout',
+      url: 'https://natoursrlm.netlify.app/api/v1/users/logout',
     });
 
     if ((res.data.status = 'success')) {
