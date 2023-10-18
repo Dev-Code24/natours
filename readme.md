@@ -22,6 +22,13 @@ npm watch:js --> for bundling javascript files using parcel
 
 ```
 
+The following is how your final result should look like:
+
+
+https://github.com/Dev-Code24/natours/assets/97425135/bc75a72c-d9ba-4dca-af57-f29751611b03
+
+
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
