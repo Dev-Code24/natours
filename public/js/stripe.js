@@ -9,9 +9,9 @@ const stripe = Stripe(
 export const bookTour = async (tourId) => {
   try {
     // 1) Get checkout session from api
-    const session = await axios(
-      `https://natoursrlm.netlify.app/api/v1/bookings/checkout-session/${tourId}`
-    );
+    const session = await axios
+      `/api/v1/bookings/checkout-session/${tourId}`
+    ;
 
     // 2)Create checkout form + charge credit card
     await stripe.redirectToCheckout({

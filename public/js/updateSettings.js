@@ -7,8 +7,8 @@ export const updateSettings = async (data, type) => {
   try {
     const url =
       type === 'password'
-        ? 'https://natoursrlm.netlify.app/api/v1/users/update-my-password'
-        : 'https://natoursrlm.netlify.app/api/v1/users/update-me';
+        ? '/api/v1/users/update-my-password'
+        : '/api/v1/users/update-me';
     const res = await axios({
       method: 'PATCH',
       url: url,
